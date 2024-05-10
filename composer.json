@@ -1,0 +1,27 @@
+{
+    "name": "yanuarekaputera/belajar-php-mvc",
+    "description": "Belajar PHP MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "yanuarekaputera",
+            "email": "yanuarekaputera@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "YanuarEkaPutera\\Belajar\\PHP\\MVC\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YanuarEkaPutera\\Belajar\\PHP\\MVC\\" : "tests"
+        }
+    }
+}
